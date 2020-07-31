@@ -153,7 +153,7 @@ const header_unread_notify_observer   = new Observer(render_unread_count_header)
 
 ### Bước 3 - Cập nhật danh sách Observer trong Subject
 
-Chúng ta khởi tạo một đối tượng kiểu Subject, với tên là `message_receiver`. Sau đó, lần lượt gán ba observer được khai báo ở bước 2 vào ``message_receiver`. 
+Chúng ta khởi tạo một đối tượng kiểu Subject, với tên là `message_receiver`. Sau đó, lần lượt gán ba observer được khai báo ở bước 2 vào `message_receiver`. 
 
 ```javascript
 const message_receiver = new Subject();
